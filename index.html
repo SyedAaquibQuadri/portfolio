@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <title>Quadri's Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Quadri's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        <p>Hi, My name is <span class="purple">Quadri</span></p>
+        <div>and I am passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="developer-img2.png" alt="Developer image" />
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="secondSection">
+      <span class="text-grey">What I have done so far</span>
+      <h1>Projects</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="rps.png" alt="Rock-Paper-Scissors" />
+          <div class="vertical-title">Rock-Paper-Scissors</div>
+          <div class="vertical-desc">A classic game where users play against the computer. Built with HTML, CSS, and JavaScript.</div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="ttt.png" alt="Tic-Tac-Toe" />
+          <div class="vertical-title">Tic-Tac-Toe</div>
+          <div class="vertical-desc">A two-player game using grid logic and winning conditions. Clean interface and functional logic.</div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="calc.png" alt="Calculator" />
+          <div class="vertical-title">Calculator</div>
+          <div class="vertical-desc">A functional calculator performing basic arithmetic operations. Responsive and styled with CSS.</div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="amazon.png" alt="Amazon Landing Page" />
+          <div class="vertical-title">Amazon Landing Page</div>
+          <div class="vertical-desc">A clone of Amazon's homepage to practice layout and section design using HTML and CSS.</div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="buildings.png" alt="Buildings Design" />
+          <div class="vertical-title">Buildings</div>
+          <div class="vertical-desc">Simple architecture sketches made using basic HTML and CSS for Responsive design.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="back-to-top"><h3><a href="#">Back to Top</a></h3></div>
+    <div class="footer-panel2">
+      <ul>
+        <p>Quick Links</p>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </ul>
+      <ul>
+        <p>Resources</p>
+        <a href="#">Blog</a>
+        <a href="#">Tutorials</a>
+        <a href="#">Docs</a>
+      </ul>
+      <ul>
+        <p>Connect</p>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Instagram</a>
+      </ul>
+      <ul>
+        <p>Legal</p>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </ul>
+    </div>
+
+    <div class="foot-panel3">
+      <div class="logo"></div>
+    </div>
+
+    <div class="foot-panel4">
+      <a>Conditions of Use</a>
+      <a>Privacy Notice</a>
+      <a>Your Ads Privacy Choices</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Web Designer</i>', '<i>Web Developer</i>', '<i>Creative Thinker</i>'],
+      typeSpeed: 80,
+      loop: true,
+    });
+  </script>
+</body>
+</html>
